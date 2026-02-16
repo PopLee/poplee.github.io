@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="云弧投研隐私政策 - 本地优先的 AI 量化投研助手">
+    <title>隐私政策 - 云弧投研</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background-color: #ffffff;
+            padding: 0;
+            margin: 0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #111827;
+                color: #f9fafb;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+
+        header {
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            header {
+                border-bottom-color: #374151;
+            }
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1f2937;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            h1 {
+                color: #f9fafb;
+            }
+        }
+
+        .meta {
+            font-size: 14px;
+            color: #6b7280;
+            margin-top: 8px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .meta {
+                color: #9ca3af;
+            }
+        }
+
+        .content {
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            color: #1f2937;
+            padding-top: 8px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .content h2 {
+                color: #f9fafb;
+            }
+        }
+
+        .content p {
+            margin-bottom: 16px;
+            color: #374151;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .content p {
+                color: #d1d5db;
+            }
+        }
+
+        .content ul {
+            margin-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+            color: #374151;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .content li {
+                color: #d1d5db;
+            }
+        }
+
+        .content strong {
+            font-weight: 600;
+            color: #1f2937;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .content strong {
+                color: #f9fafb;
+            }
+        }
+
+        .footer {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 14px;
+            color: #6b7280;
+            text-align: center;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .footer {
+                border-top-color: #374151;
+                color: #9ca3af;
+            }
+        }
+
+        .footer a {
+            color: #10b981;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 24px 16px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>隐私政策</h1>
+            <div class="meta">生效日期：2026年2月</div>
+        </header>
+
+        <div class="content">
+            <p>云弧投研（以下简称「本应用」）由云弧（CloudArc）提供。我们重视您的隐私，本政策说明我们如何对待您的数据。</p>
+
+            <h2>一、数据存储原则（本地优先）</h2>
+            <p><strong>1.1</strong> 本应用采用「本地优先」设计。您的以下数据默认仅存储在您使用本应用的设备本地（如策略配置、回测记录、数据管理设置、API 配置等），我们不会主动收集或上传至我们的服务器。</p>
+            <p><strong>1.2</strong> 本地数据存储采用本机数据库（如 SQLite）及本地文件，您可自行备份或删除。</p>
+
+            <h2>二、我们可能接触到的数据</h2>
+            <p><strong>2.1</strong> 您主动填写的 API 密钥（如数据源 API、大模型 API 等）：仅保存在您设备本地，用于本应用向相应服务发起请求。我们不会收集、存储或查看您的 API 密钥。</p>
+            <p><strong>2.2</strong> 当您使用需要网络的功能时（如行情数据、新闻、AI 分析等），本应用会向以下类型的第三方发送请求，具体以您配置的数据源为准：</p>
+            <ul>
+                <li>数据源：如 AkShare、Yahoo Finance 等公开或您配置的数据接口；</li>
+                <li>大模型服务：如您自行配置的 LiteLLM / OpenAI 兼容接口。</li>
+            </ul>
+            <p>上述请求由您的设备直接发往相应服务商，其数据处理遵循各服务商之隐私政策。</p>
+            <p><strong>2.3</strong> 我们不会收集您的姓名、邮箱、手机号、设备标识等个人身份信息，除非您在未来使用需账号登录的功能并自愿提供。</p>
+
+            <h2>三、数据来源与合规</h2>
+            <p><strong>3.1</strong> 行情、资讯等数据可能来自第三方数据源（包括但不限于公开接口或您配置的数据服务）。使用这些数据时，请您遵守相关数据源的使用条款与合规要求。</p>
+            <p><strong>3.2</strong> 本应用不向第三方出售您的个人数据，也不将本地存储的数据用于广告定向或与无关第三方共享。</p>
+
+            <h2>四、权限与安全</h2>
+            <p><strong>4.1</strong> 本应用仅在您授权或系统要求范围内使用网络、本地文件访问等权限，用于实现数据下载、导出、配置存储等功能。</p>
+            <p><strong>4.2</strong> 我们建议您妥善保管本机存储的 API 密钥及本地数据，避免设备丢失或未授权访问带来的风险。</p>
+
+            <h2>五、政策更新与联系</h2>
+            <p><strong>5.1</strong> 我们可能适时更新本政策，更新后的版本将在应用内或官网发布。继续使用本应用即视为接受更新后的政策。</p>
+            <p><strong>5.2</strong> 如您对本政策有疑问，可通过官网（https://cloudarc.cn）或应用内提供的联系方式与我们联系。</p>
+        </div>
+
+        <footer class="footer">
+            <p>© 2025 云弧（CloudArc） | <a href="https://github.com/PopLee/poplee.github.io">GitHub</a></p>
+        </footer>
+    </div>
+</body>
+</html>
