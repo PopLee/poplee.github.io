@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="云弧投研隐私政策 - 本地优先的 AI 量化投研助手">
+    <meta name="description" content="云弧投研隐私政策 - 本地优先的 AI 量化投研助手，含第三方大模型数据披露">
     <title>隐私政策 - 云弧投研</title>
     <style>
         * {
@@ -129,6 +129,21 @@
             }
         }
 
+        .content .highlight-box {
+            margin: 20px 0;
+            padding: 16px 20px;
+            background: #f0fdf4;
+            border-left: 4px solid #10b981;
+            border-radius: 0 8px 8px 0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .content .highlight-box {
+                background: rgba(16, 185, 129, 0.12);
+                border-left-color: #10b981;
+            }
+        }
+
         .footer {
             margin-top: 48px;
             padding-top: 24px;
@@ -187,11 +202,23 @@
             <p><strong>2.1</strong> 您主动填写的 API 密钥（如数据源 API、大模型 API 等）：仅保存在您设备本地，用于本应用向相应服务发起请求。我们不会收集、存储或查看您的 API 密钥。</p>
             <p><strong>2.2</strong> 当您使用需要网络的功能时（如行情数据、新闻、AI 分析等），本应用会向以下类型的第三方发送请求，具体以您配置的数据源为准：</p>
             <ul>
-                <li>数据源：如 AkShare、Yahoo Finance 等公开或您配置的数据接口；</li>
-                <li>大模型服务：如您自行配置的 LiteLLM / OpenAI 兼容接口。</li>
+                <li>数据源：公开接口或您配置的数据接口；</li>
+                <li>大模型服务：如您自行配置的 LiteLLM / 大模型兼容接口。</li>
             </ul>
             <p>上述请求由您的设备直接发往相应服务商，其数据处理遵循各服务商之隐私政策。</p>
             <p><strong>2.3</strong> 我们不会收集您的姓名、邮箱、手机号、设备标识等个人身份信息，除非您在未来使用需账号登录的功能并自愿提供。</p>
+
+            <h2>二之一、第三方大模型（AI）服务（数据披露与同意）</h2>
+            <p>当您使用本应用中的 AI 对话、AI 分析等功能时：</p>
+            <ul>
+                <li>我们会将您输入的<strong>对话内容、消息文本及相关上下文</strong>发送至您在本应用「模型设置」中所配置的大模型服务商（如 DeepSeek、通义千问等，具体以您配置为准）。上述数据由您的设备直接发往该服务商，我们不经手存储或转发。</li>
+                <li>我们会在您<strong>首次使用 AI 对话前</strong>明确说明上述数据发送对象与用途，并在您同意后再发送。</li>
+                <li>我们不会控制上述第三方服务商对数据的使用与保留，其数据处理以该服务商的隐私政策为准。我们建议您在使用前查阅所配置服务商的隐私政策。</li>
+                <li>本政策其他条款中关于「我们可能接触到的数据」「数据来源与合规」等同样适用于上述场景。</li>
+            </ul>
+            <div class="highlight-box">
+                <strong>简要说明</strong>：使用 AI 功能时，您的输入会发往您自行配置的大模型服务商；应用内会在首次使用前征得您的同意，并可在设置中查看完整隐私政策。
+            </div>
 
             <h2>三、数据来源与合规</h2>
             <p><strong>3.1</strong> 行情、资讯等数据可能来自第三方数据源（包括但不限于公开接口或您配置的数据服务）。使用这些数据时，请您遵守相关数据源的使用条款与合规要求。</p>
@@ -203,11 +230,11 @@
 
             <h2>五、政策更新与联系</h2>
             <p><strong>5.1</strong> 我们可能适时更新本政策，更新后的版本将在应用内或官网发布。继续使用本应用即视为接受更新后的政策。</p>
-            <p><strong>5.2</strong> 如您对本政策有疑问，可通过官网（https://cloudarc.cn）或应用内提供的联系方式与我们联系。</p>
+            <p><strong>5.2</strong> 如您对本政策有疑问，可通过官网（<a href="https://cloudarc.cn">https://cloudarc.cn</a>）或应用内提供的联系方式与我们联系。</p>
         </div>
 
         <footer class="footer">
-            <p>© 2025 云弧（CloudArc） | <a href="https://github.com/PopLee/poplee.github.io">GitHub</a></p>
+            <p><a href="https://cloudarc.cn/terms">使用条款</a> · <a href="https://cloudarc.cn">云弧（CloudArc）</a></p>
         </footer>
     </div>
 </body>
