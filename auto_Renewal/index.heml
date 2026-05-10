@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArcticFoxAlpha 会员自动续费规则</title>
+    <style>
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC",
+          "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+        background: #f5f7fb;
+        color: #1e2732;
+        line-height: 1.7;
+      }
+      .wrap { max-width: 920px; margin: 0 auto; padding: 24px 16px 56px; }
+      .card {
+        background: #fff;
+        border: 1px solid #e2e8f0;
+        border-radius: 14px;
+        padding: 20px;
+      }
+      h1, h2, h3 { margin: 0 0 12px; line-height: 1.35; }
+      h1 { font-size: 28px; }
+      h2 { margin-top: 20px; font-size: 22px; }
+      h3 { margin-top: 14px; font-size: 18px; }
+      p { margin: 8px 0; }
+      ol { margin: 8px 0 8px 20px; padding: 0; }
+      li { margin: 6px 0; }
+      .meta { color: #4b5563; }
+      .toc a { color: #1d4ed8; text-decoration: none; }
+      .notice {
+        background: #f8fafc;
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        padding: 12px 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <article class="card">
+        <h1>ArcticFoxAlpha 会员自动续费规则</h1>
+        <p class="meta">生效日期：2026 年 3 月</p>
+        <p>
+          请在开通自动续费服务前，认真阅读本规则。您点击订阅、开通或使用自动续费服务，即视为您已阅读并同意本规则全部内容。
+        </p>
+
+        <section class="notice" aria-label="订阅披露摘要">
+          <p>
+            自动续费服务受应用内实际订阅页和 App Store 订阅机制约束。订阅价格、计费周期、试用（如有）和权益范围以用户购买时页面显示为准。
+          </p>
+        </section>
+
+        <h2>目录</h2>
+        <ol class="toc">
+          <li><a href="#s1">自动续费服务说明</a></li>
+          <li><a href="#s2">取消自动续费</a></li>
+          <li><a href="#s3">常见取消路径（Apple 生态）</a></li>
+          <li><a href="#s4">价格与权益调整</a></li>
+          <li><a href="#s5">服务中断与责任说明</a></li>
+          <li><a href="#s6">与其他协议的关系</a></li>
+          <li><a href="#s7">规则更新与法律适用</a></li>
+          <li><a href="#s8">联系我们</a></li>
+        </ol>
+
+        <h2 id="s1">一、自动续费服务说明</h2>
+        <ol>
+          <li>自动续费服务可包含连续包月、连续包季、连续包年等类型，具体以应用内订阅页面展示为准。</li>
+          <li>
+            若您开通自动续费，即授权在当前会员周期到期前后，通过您用于订阅的支付账户（例如 Apple ID）自动扣取下一周期费用。
+          </li>
+          <li>
+            自动续费成功的前提是支付账户状态正常且可完成扣款。若因余额不足、支付方式失效等导致扣款失败，会员权益可能中断。
+          </li>
+        </ol>
+
+        <h3>订阅审核相关补充披露</h3>
+        <ol>
+          <li>具体订阅价格与周期以 App 内购买页（IAP）展示为准。</li>
+          <li>若存在试用期，以购买页显示规则为准；试用结束后将按所选订阅计划计费（如用户未提前取消）。</li>
+          <li>已购买订阅可通过 Apple 账户的“订阅”进行管理或取消。</li>
+        </ol>
+
+        <h2 id="s2">二、取消自动续费</h2>
+        <ol>
+          <li>若您希望取消自动续费，请在当前订阅周期结束前至少 24 小时完成取消。</li>
+          <li>若未在到期前 24 小时取消，系统将按当前订阅周期自动续订并扣款。</li>
+          <li>已生效的当前计费周期通常不支持按剩余天数退款，具体以应用商店规则为准。</li>
+        </ol>
+
+        <h2 id="s3">三、常见取消路径（Apple 生态）</h2>
+        <p><strong>iOS / iPadOS：</strong>App Store -> 账户头像 -> 订阅 -> 选择 ArcticFoxAlpha -> 取消订阅</p>
+        <p><strong>macOS：</strong>App Store -> 账户 -> 账户设置 -> 订阅管理 -> 选择 ArcticFoxAlpha -> 取消订阅</p>
+
+        <h2 id="s4">四、价格与权益调整</h2>
+        <ol>
+          <li>我们可能根据产品策略调整自动续费价格、会员权益、计费周期。</li>
+          <li>调整信息将通过应用内页面或项目页面提前展示。</li>
+          <li>若您不同意调整内容，可在当前订阅周期结束前取消自动续费。</li>
+        </ol>
+
+        <h2 id="s5">五、服务中断与责任说明</h2>
+        <ol>
+          <li>因支付渠道故障、系统维护、网络异常等原因导致续费失败或延迟，可能影响会员权益连续性。</li>
+          <li>对于非本应用可控的第三方支付系统问题，我们将在合理范围内协助排查，但不承担第三方系统故障责任。</li>
+        </ol>
+
+        <h3>美股产品风险提示</h3>
+        <ol>
+          <li>订阅权益主要用于信息服务能力提升，不代表投资收益承诺。</li>
+          <li>应用内内容（含 AI 输出）仅作研究辅助，不构成投资建议；用户应独立判断并自行承担决策后果。</li>
+        </ol>
+
+        <h2 id="s6">六、与其他协议的关系</h2>
+        <ol>
+          <li>本规则是《ArcticFoxAlpha 用户协议》的补充条款。</li>
+          <li>如本规则与用户协议约定不一致，以本规则为准；未约定事项适用用户协议。</li>
+        </ol>
+
+        <h2 id="s7">七、规则更新与法律适用</h2>
+        <ol>
+          <li>我们有权根据法律法规或业务需要更新本规则。</li>
+          <li>更新后将通过应用内或项目页面发布并生效。</li>
+          <li>本规则适用中华人民共和国法律（不含冲突法规则）；争议解决方式以用户协议相关条款为准。</li>
+        </ol>
+
+        <h2 id="s8">八、联系我们</h2>
+        <p>如对本规则有疑问，请通过邮箱（cloudarcquant@gmail.com）与我们联系。</p>
+      </article>
+    </main>
+  </body>
+  </html>
